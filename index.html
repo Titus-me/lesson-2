@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <style>
+        Body{
+            padding: 10px;
+            text-align: center;
+            background-color: skyblue;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+
+    }
+     button{
+        background-color: blueviolet;
+     }
+     h1,h2{
+        text-decoration: underline;
+        font-size: 20px;
+        padding: 5px;
+        color: chocolate;
+        background-color: aqua;
+     }
+     h1:hover,h2:hover{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 5px;
+        color: rgb(23, 163, 18);
+        background-color: aqua;
+     }
+
+    </style>
+</head>
+<body>
+    <h1>Titus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, explicabo adipisci facilis perferendis, labore et, consequuntur deleniti in beatae nesciunt eos. Nulla voluptates hic officia excepturi quia eveniet culpa dicta.</p>
+    <h2>Cyber security engineer</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ipsam assumenda quos aliquid, modi ad libero quidem neque a odio accusantium! Mollitia blanditiis quia delectus vitae saepe recusandae excepturi voluptatibus.</p>
+
+    <p id="more" style="color: blue;"></p>
+    <button onclick="document.getElementById('more').innerHTML=more">click me</button>
+
+    <h1 id="ClickedTimes"></h1>
+    <button onclick="document.getElementById('ClickedTimes').innerHTML=counter++">ClickedTimes</button>
+
+    <h1 id="clickedTimes"></h1>
+    <button onclick="document.getElementById('clickedTimes').innerHTML=counter--">clickedTimes</button>
+
+    <script>
+        let more ="check my cv";
+        let counter = 0;
+        
+
+    </script>
+    <script src="js functions.js"></script>
+
+
+    
+</body>
+</html>

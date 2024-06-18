@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        Body{
+            padding: 10px;
+            text-align: center;
+            background-color: skyblue;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+
+    }
+     button{
+        background-color: blueviolet;
+     }
+     h1,h2{
+        text-decoration: underline;
+        font-size: 20px;
+        padding: 5px;
+        color: chocolate;
+        background-color: aqua;
+     }
+     h1:hover,h2:hover{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 5px;
+        color: rgb(23, 163, 18);
+        background-color: aqua;
+     }
+
+    </style>
+</head>
+<body>
+    <h1>functions</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dolorem, minima iste unde iure blanditiis aspernatur cupiditate, consectetur alias atque nemo obcaecati consequatur ex laudantium beatae reprehenderit dicta nihil cum.</p>
+
+    <h2>Cyber security</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum porro nesciunt vel? Commodi temporibus minima quod dolorem optio facilis, tempora recusandae! Ipsa aut voluptatum atque porro assumenda perspiciatis minima minus.</p>
+
+    <p id="more" style="color: blue;"></p>
+    <button onclick="document.getElementById('more').innerHTML=more">click me</button>
+
+    <h1 id="ClickedTimes"></h1>
+    <button onclick="document.getElementById('ClickedTimes').innerHTML=counter++">ClickedTimes</button>
+    <h4>Area of a Triangle</h4>
+    <h2 id="area">see area</h2>
+    <button onclick="{area()}">click to see area</button>
+
+    <h4>Volume</h4>
+    <h2 id="Volume">see Volume</h2>
+    <button onclick="{volume()}">click to see Volume</button>
+
+    <h4>BMI</h4>
+    <h2 id="BMI">see BMI</h2>
+    <button onclick="{BMI()}">click to see BMI</button>
+
+    <div>
+        <h4>simple interest</h4>
+        <h2 id="SI">see simple interest</h2>
+        <button onclick="{simple_interest()}">click to see simple interest</button>
+        
+    </div>
+
+    <script>
+        let more ="check my cv";
+        let counter = 0;
+        
+
+    </script>
+    <script src="functions.js"></script>
+
+    
+</body>
+</html>
