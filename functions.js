@@ -39,4 +39,13 @@ function simple_interest() {
     let simple_interest = (principal*rate*time)/100
     see_si.innerHTML = simple_interest
 
+};
+
+function greatest_number(){
+    let see_greatest = document.getElementById("greatest")
+    let num1 = 10
+    let num2 = 60
+    let greatest_number=(num1>num2)?"num1":"num2"
+    see_greatest.innerHTML = greatest_number
+
 }
